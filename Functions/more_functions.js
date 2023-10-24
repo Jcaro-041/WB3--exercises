@@ -37,7 +37,7 @@ addNumbers(someNum1, someNum2);
 // Third function
 function displayReceipt(amountDue, amountPaid){
     let changeDue = amountPaid - amountDue;
-    if (amountPaid >= amountDue){
+    if (amountPaid > amountDue){
         console.log("Total due: $" + amountDue);
         console.log("Cash paid: $" + amountPaid);
         console.log("Change due: $" + changeDue.toFixed(2));
